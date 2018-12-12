@@ -1,0 +1,34 @@
+.center{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+body{
+  background-color:#CCCCCC;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+footer{
+  background-color:#000;
+  color:#FFFFFF;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
